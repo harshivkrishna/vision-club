@@ -4,15 +4,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.377); /* Assuming background image is set on the body */
+    background-color: rgba(0, 0, 0, 0.7); /* Assuming background image is set on the body */
   }
   
-  .logo a {
-    font-family: 'Arial', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
+  .logo{
+    width: 50px;
+    height: 50px;
   }
   
   .nav-links {
