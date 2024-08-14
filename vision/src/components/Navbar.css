@@ -1,5 +1,5 @@
 /* NavBar.css */
-.navbar {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,15 +7,23 @@
     background-color: rgba(0, 0, 0, 0.2);
   }
   
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
   .logo{
     width: 120px;
     height: 60px;
   }
   
+
   .nav-links {
     display: flex;
     list-style: none;
-    margin: 0;
+    justify-content: center;
+    margin-left: 100px;
     padding: 0;
   }
   
