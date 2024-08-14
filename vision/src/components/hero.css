@@ -37,3 +37,13 @@
     color: #fff;
     font-weight: 500;
 }
+
+@media (max-width:768px){
+    .hero-container{
+        top: 300px;
+    }
+    .hero-container h1{
+        font-size: 40px;
+    }
+
+}

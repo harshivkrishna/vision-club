@@ -88,6 +88,8 @@
   background-color: #ffffff;
   border-radius: 12px;
   padding:10px;
+  font-weight: 700;
+  font-family: 'Poppins',sans-serif;
 }
 
 @media (min-width: 769px) {
