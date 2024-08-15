@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram } from 'lucide-react';
 import './contact.css';
 
 const Contact = () => {
@@ -91,9 +91,15 @@ const Contact = () => {
                 </a>
               </li>
               <li className="contact-list-item">
+                <Instagram size={24} className="contact-icon" />
+                <a href="tel:+1234567890" className="contact-link">
+                 Insta_id
+                </a>
+              </li>
+              <li className="contact-list-item">
                 <MapPin size={24} className="contact-icon" />
                 <address className="contact-address">
-                  123 Main St, Anytown, USA 12345
+                  Innovation Lab, Chennai Institute of Technology
                 </address>
               </li>
             </ul>
