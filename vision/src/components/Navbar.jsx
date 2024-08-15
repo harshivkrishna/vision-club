@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './NavBar.css';
 import logo from '../assets/logo.png';
+import {Link} from 'react-router-dom';
 
 const NavBar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -18,10 +19,9 @@ const NavBar = () => {
           onClick={toggleNavLinks}
         ></i>
         <ul className={`nav-links ${showLinks ? 'show' : ''}`}>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="#">About</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
           <button>Download</button>
         </ul>
       </nav>

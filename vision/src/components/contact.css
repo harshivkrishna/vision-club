@@ -1,0 +1,133 @@
+.contact-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  .contact-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1a202c;
+    margin-bottom: 16px;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .contact-info,
+  .contact-form-container {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  .contact-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a202c;
+    margin-bottom: 8px;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .contact-icon {
+    color: gray;
+    margin-right: 8px;
+  }
+  
+  .contact-link {
+    color: #4a5568;
+    text-decoration: none;
+  }
+  
+  .contact-link:hover {
+    color: #1a202c;
+  }
+  
+  .contact-address {
+    color: #4a5568;
+  }
+  
+  .contact-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  .contact-form-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a202c;
+    margin-bottom: 8px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .form-field {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .form-label {
+    display: block;
+    color: #4a5568;
+    margin-bottom: 4px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cbd5e0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .form-input:focus {
+    border-color: #4299e1;
+    box-shadow: 0 0 0 1px #4299e1;
+  }
+  
+  .form-button {
+    background-color: #4299e1;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
+  .form-button:hover {
+    background-color: #2b6cb0;
+  }
+  
+  .success-message {
+    color: #48bb78;
+    margin-top: 8px;
+  }
+  
