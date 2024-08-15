@@ -4,7 +4,6 @@
   align-items: center;
   padding: 10px 20px;
   background-color: transparent;
-  /* position: absolute; */
   width: 100%; 
   z-index: 1; 
   background-color: rgba(0, 0, 0, 0.32);
@@ -31,7 +30,7 @@
 .nav-links {
   display: flex;
   list-style: none;
-  justify-content:flex-end;
+  justify-content: flex-end;
   padding: 0;
   position: absolute;
   top: calc(100%); 
@@ -40,7 +39,7 @@
   background-color: rgba(0, 0, 0, 0.9);
   flex-direction: column;
   align-items: center;
-  transition: transform 0.5s ease, opacity 0.5s ease; 
+  transition: transform 0.5s ease, opacity 0.5s ease, visibility 0s linear 0.5s; 
   transform: translateY(-100%); 
   opacity: 0;
   visibility: hidden;
@@ -50,13 +49,14 @@
   transform: translateY(0); 
   opacity: 1;
   visibility: visible;
+  transition: transform 0.5s ease, opacity 0.5s ease, visibility 0s linear 0s; 
 }
 
 .nav-links.hide {
   transform: translateY(-100%); 
   opacity: 0;
   visibility: hidden;
-  transition: transform 0.5s ease, opacity 0.5s ease; 
+  transition: transform 0.5s ease, opacity 0.5s ease, visibility 0s linear 0.5s; 
 }
 
 .nav-links li {
@@ -90,9 +90,9 @@
 .nav-links button{
   background-color: #ffffff;
   border-radius: 12px;
-  padding:10px;
+  padding: 10px;
   font-weight: 700;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 @media (min-width: 769px) {
@@ -130,16 +130,17 @@
     transform: translateY(0); 
     opacity: 1;
     visibility: visible;
+    transition: transform 0.5s ease, opacity 0.5s ease, visibility 0s linear 0s; 
   }
 
   .nav-links.hide {
     transform: translateY(-100%); 
     opacity: 0;
     visibility: hidden;
-    transition: 1s ease;
+    transition: transform 0.5s ease, opacity 0.5s ease, visibility 0s linear 0.5s; 
   }
 
-  .nav-links button{
+  .nav-links button {
     margin-bottom: 20px;
   }
 
