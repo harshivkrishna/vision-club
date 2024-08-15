@@ -10,11 +10,12 @@ import 'swiper/css';
 
 const Hero = () => {
   return (
-    <div >
-        <div className="background-container">
+    <div className="background-container">
+        <div>
             <Swiper
             spaceBetween={50}
             slidesPerView={1}
+            loop={true}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
             autoplay={{ delay: 5000 }} 
