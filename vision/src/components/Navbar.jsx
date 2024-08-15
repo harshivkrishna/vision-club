@@ -9,7 +9,6 @@ const NavBar = () => {
   const toggleNavLinks = () => {
     setShowLinks(!showLinks);
   };
-
   return (
     <div className='container'>
       <nav className="navbar">
