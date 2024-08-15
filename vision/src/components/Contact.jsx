@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin } from 'lucide-react'
-import "./contact.css"
+import { Mail, Phone, MapPin } from 'lucide-react';
+import './contact.css';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -11,13 +11,69 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setSent(true);
-    // Add your logic to send the form data to server or email
+    // Reset form fields
+    setName('');
+    setEmail('');
+    setMessage('');
   };
 
   return (
     <div className="contact-page">
       <h1 className="contact-title">Get in Touch</h1>
       <div className="contact-container">
+        <div className="contact-form-container">
+          <form onSubmit={handleSubmit} className="contact-form">
+            <h2 className="contact-form-title">Send a Message</h2>
+            <div className="form-group">
+              <div className="form-field">
+                <label htmlFor="name" className="form-label">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  className="form-input"
+                  required
+                />
+              </div>
+              <div className="form-field">
+                <label htmlFor="email" className="form-label">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="form-input"
+                  required
+                />
+              </div>
+            </div>
+            <div className="form-group">
+              <label htmlFor="message" className="form-label">
+                Message
+              </label>
+              <textarea
+                id="message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                className="form-input"
+                required
+              />
+            </div>
+            <button type="submit" className="form-button">
+              Send Message
+            </button>
+            {sent && (
+              <p className="success-message">
+                Your message has been sent successfully!
+              </p>
+            )}
+          </form>
+        </div>
         <div className="contact-info">
           <div className="contact-card">
             <h2 className="contact-card-title">Contact Information</h2>
@@ -42,56 +98,6 @@ const Contact = () => {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="contact-form-container">
-          <form onSubmit={handleSubmit} className="contact-form">
-            <h2 className="contact-form-title">Send a Message</h2>
-            <div className="form-group">
-              <div className="form-field">
-                <label htmlFor="name" className="form-label">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                  className="form-input"
-                />
-              </div>
-              <div className="form-field">
-                <label htmlFor="email" className="form-label">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="form-input"
-                />
-              </div>
-            </div>
-            <div className="form-group">
-              <label htmlFor="message" className="form-label">
-                Message
-              </label>
-              <textarea
-                id="message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-                className="form-input"
-              />
-            </div>
-            <button type="submit" className="form-button">
-              Send Message
-            </button>
-            {sent && (
-              <p className="success-message">
-                Your message has been sent successfully!
-              </p>
-            )}
-          </form>
         </div>
       </div>
     </div>
