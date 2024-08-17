@@ -30,7 +30,8 @@
     padding: 10px;
     text-align: center;
     color: white;
-    background: linear-gradient(to bottom right,red,blue);
+    background: url('../assets/aboutbg.webp');
+    background-size: cover;
 }
 
 .about-card h2{
