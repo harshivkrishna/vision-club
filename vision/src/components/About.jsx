@@ -1,7 +1,6 @@
 import React from 'react'
 import './about.css'
 
-import aboutbg from'../assets/about.webp'
 const About = () => {
   return (
     <div>

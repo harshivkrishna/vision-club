@@ -1,6 +1,7 @@
 .about-parent{
     height: fit-content;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .about-parent h1{
@@ -8,7 +9,6 @@
     font-size: 50px;
     font-weight: 500;
     text-align: center;
-    /* margin: 5rem; */
 }
 .about-container{
     display: flex;
