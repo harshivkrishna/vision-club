@@ -15,6 +15,7 @@
     color: white;
     width: 100%;
     padding: 20px;
+    overflow: hidden;
 }
 
 .text-container{
@@ -161,7 +162,7 @@
         width: 90%;
     }
     .news-content{
-        width: 100vw;
+        width: 93vw;
         padding: 0px;
         margin: 0px;
     }
