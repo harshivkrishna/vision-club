@@ -1,0 +1,106 @@
+.news-title{
+    font-family: 'Poppins',sans-serif;
+    margin-top: 50px;
+}
+.news-container{
+    margin-top: 50px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+.text-container{
+    width: 70%;
+    display: flex;
+    margin: 50px 30px;
+    justify-content: space-around;
+}
+
+.newsImageContainer{
+    height: 500px;
+    width: 450px;
+}
+
+.newsImageContainer img{
+    height: inherit;
+    object-fit: contain;
+    padding: 0;
+    margin: 0;
+}
+
+.newsHeading h2{
+    font-family: 'Poppins',sans-serif;
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.newsHeading p,.newsCategory p{
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: 200;
+}
+
+.news-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* News aside css */
+
+.news-aside{
+    width: 100%;
+    flex-basis: 20%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.news-card{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.news-card-img{
+    height: 200px;
+    width: 200px;
+}
+
+.news-card-img img{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+.news-card-descp{
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: 200;
+}
+
+.view-more-btn{
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+}
+
+.view-more-btn:hover{
+    background-color: rgb(188, 188, 188);
+    font-weight: 500;
+}
