@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import FormPage from './components/FormPage'
 import About from './components/About'
+import Gallery from './components/Gallery'
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
                    <Hero></Hero>
                    <News></News> 
                    <About></About>
+                   <Gallery></Gallery>
                 </>
               }>
               </Route>

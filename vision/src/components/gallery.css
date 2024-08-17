@@ -1,0 +1,28 @@
+.gallery{
+    padding: 20px;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.gallery h1{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.gallery-container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img-container-gallery{
+    height: 300px;
+    width: 350px;
+    background-color: antiquewhite;
+}
