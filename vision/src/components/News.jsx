@@ -6,7 +6,7 @@ import News1 from '../assets/news/news1.jpg'
 
 const News = () => {
   return (
-    <div>
+    <div className='news-parent'>
       <h1 className='news-title'>Latest News</h1>
         <div className="news-container">
           <div className="text-container">
@@ -23,7 +23,6 @@ const News = () => {
               <img src={HeadNews} alt="" />
               </div>
           </div>
-          
           <div className="news-aside">
           <div className="news-card">
             <div className="news-card-img">
@@ -44,7 +43,6 @@ const News = () => {
               <p>News category | Author | Date</p>
             </div>
           </div>
-
           <button className='view-more-btn'>View More</button>
         </div>
         </div>

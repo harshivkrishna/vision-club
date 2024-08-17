@@ -8,9 +8,8 @@
     font-weight: 400;
 }
 .news-container{
-    /* margin-top: 50px; */
-    width: 100%;
     height: fit-content;
+    width: 100%;
     display: flex;
     background-color: black;
     color: white;
@@ -35,6 +34,7 @@
     object-fit: contain;
     padding: 0;
     margin: 0;
+    border-radius: 10px;
 }
 
 .newsHeading h2{
@@ -87,6 +87,7 @@
     height: inherit;
     width: inherit;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .news-card-descp{
@@ -108,4 +109,72 @@
 .view-more-btn:hover{
     background-color: rgb(188, 188, 188);
     font-weight: 500;
+}
+
+
+@media (width < 950px) {
+    .news-container{
+        height: fit-content;
+        /* padding: 10px; */
+        margin: 0;
+    }
+    .text-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        /* margin: 10px; */
+    }
+    .newsHeading h2{
+        font-size:40px ;
+    }
+    .newsImageContainer{
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .news-title{
+        padding: 10px;
+    }
+}
+
+@media (width <671px){
+    .news-container{
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .news-title{
+        font-size: 30px;
+    }
+
+    .newsImageContainer{
+        width: 96vw;
+        height: 300px;
+    }
+    .text-container{
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+
+    .newsHeading{
+        width: 90%;
+    }
+    .news-content{
+        width: 100vw;
+        padding: 0px;
+        margin: 0px;
+    }
+    .newsHeading h2{
+        font-size: 30px;
+    }
+    .newsHeading p{
+        margin-bottom: 20px;
+    }
+}
+
+@media (width <362px){
+    .news-container{
+        height: fit-content;
+    }
 }
