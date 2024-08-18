@@ -12,6 +12,7 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="logo-footer-container">
                     <img src={Logo} alt="" />
+                    <p>Your Voice our Paper</p>
                 </div>
                 <div className="footer-links-container">
                     <ul className='footer-links'>
