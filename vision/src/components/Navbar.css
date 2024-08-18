@@ -79,7 +79,7 @@ a {
   text-decoration: none;
 }
 
-a::after {
+.nav-links a::after {
   content: '';
   position: absolute;
   left: 0;
@@ -91,7 +91,7 @@ a::after {
   border-radius: 3px;
 }
 
-a:hover::after {
+.nav-links a:hover::after {
   width: 100%;
 }
 
