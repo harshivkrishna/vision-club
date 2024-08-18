@@ -39,8 +39,15 @@
     /* -webkit-text-stroke: 1px black; */
     font-family: 'Secular One',sans-serif;
     font-size:50px;
-    /* margin-bottom: 1px; */
     font-weight: 400;
+}
+
+.hero-container h4{
+    font-family: 'Nunito Sans',sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size:20px;
+    padding-left: 50px;
 }
 
 .hero-container p{

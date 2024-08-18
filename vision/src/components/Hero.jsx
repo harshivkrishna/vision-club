@@ -35,6 +35,7 @@ const Hero = () => {
         </div>
         <div className='hero-container'>
             <h1>Vision: The College Newspaper</h1>
+            <h4>Your Voice our Paper !</h4>
             <p>Discover the latest news, insights, and stories from our vibrant college community.</p>
         </div>
         </div>
