@@ -76,5 +76,6 @@
 @media (max-width:1024px){
     .talent-parent{
         flex-direction: column;
+        gap: 40px;
     }
 }
