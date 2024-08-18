@@ -59,7 +59,14 @@
     .footer-container{
         flex-direction: column;
         gap: 40px;
-        justify-content: center;
-        align-items: center;
+    }
+    .footer-parent{
+        padding: 20px;
+    }
+    .footer-container{
+        padding: 0;
+    }
+    .footer-socialmedia-links-container a:nth-child(1){
+        margin-left: 0;
     }
 }
