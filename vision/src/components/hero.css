@@ -53,12 +53,30 @@
     border-radius: 15px;
 }
 
+@media (max-width :1024px){
+    .hero-container{
+        top: 800px;
+    }
+    .hero-container h1{
+        font-size: 70px;
+        margin-bottom: 20px;
+    }
+
+    .hero-container p{
+        font-size: 30px;
+    }
+}
 @media (max-width:768px){
     .hero-container{
         top: 280px;
     }
     .hero-container h1{
         font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .hero-container p{
+        font-size: 10px;
     }
 }
 
