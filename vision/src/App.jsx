@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import FormPage from './components/FormPage'
 import About from './components/About'
 import Gallery from './components/Gallery'
+import Talent from './components/Talent'
 const App = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const App = () => {
                    <Hero></Hero>
                    <News></News> 
                    <About></About>
+                   <Talent></Talent>
                    <Gallery></Gallery>
                 </>
               }>
