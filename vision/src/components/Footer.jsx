@@ -22,10 +22,10 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="footer-socialmedia-links-container">
-                    <a href="#"><i className="ri-instagram-line"></i></a>
-                    <a href="#"><i className='ri-mail-line'></i></a>
-                    <a href="#"><i className='ri-linkedin-box-line'></i></a>
-                    <a href="#"><i className='ri-whatsapp-line'></i></a>
+                    <a href="https://www.instagram.com/vision.citil/" target='_blank'><i className="ri-instagram-line"></i></a>
+                    <a href="#" target='_blank'><i className='ri-mail-line'></i></a>
+                    <a href="#" target='_blank'><i className='ri-linkedin-box-line'></i></a>
+                    <a href="#" target='_blank'><i className='ri-whatsapp-line'></i></a>
                 </div>
             </div>
         </footer>
