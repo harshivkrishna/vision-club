@@ -8,6 +8,7 @@ import FormPage from './components/FormPage'
 import About from './components/About'
 import Gallery from './components/Gallery'
 import Talent from './components/Talent'
+import Showtalent from './components/Showtalent'
 const App = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const App = () => {
                    <News></News> 
                    <About></About>
                    <Talent></Talent>
+                   <Showtalent></Showtalent>
                    <Gallery></Gallery>
                 </>
               }>

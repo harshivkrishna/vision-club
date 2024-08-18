@@ -1,11 +1,16 @@
+.talent{
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+}
+
 .talent-parent{
     height:fit-content;
     width: 100%;
     overflow: hidden;
     display: flex;
-    gap: 30px;
-    padding: 30px;
-    
+    padding: 20px;
+    padding-bottom: 0px;
     justify-content: space-between;
     background-color: black;
 }
@@ -43,6 +48,28 @@
     width: 80%;
     height: 80vh;
     object-fit: contain;
+}
+
+.btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.view-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    font-family: 'Nunito Sans',sans-serif;
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+
+.view-btn:hover{
+    background-color: rgb(164, 161, 161);
+    color: white;
 }
 
 @media (max-width:1024px){

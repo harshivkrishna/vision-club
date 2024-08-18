@@ -4,6 +4,7 @@ import './talent.css'
 import talentImg from '../assets/news/fontpage1.png'
 const Talent = () => {
   return (
+    <div className="talent">
     <div className='talent-parent'>
         <div className="talent-container-left">
             <h1>CIT Talentinas</h1>
@@ -12,6 +13,10 @@ const Talent = () => {
         <div className="talent-container-right">
             <img src={talentImg} alt="" />
         </div>
+    </div>
+    <div className="btn-container">
+    <button className='view-btn'>View More</button>
+    </div>
     </div>
   )
 }
