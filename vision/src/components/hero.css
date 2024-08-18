@@ -28,7 +28,8 @@
 
 .hero-container{
     position: absolute;
-    top: 420px;
+    /* top: 420px; */
+    bottom: 20%;
     z-index: 10;
     margin-left:30px ;
 }
@@ -55,7 +56,7 @@
 
 @media (max-width :1024px){
     .hero-container{
-        top: 700px;
+        bottom: 10%;
     }
     .hero-container h1{
         font-size: 70px;
@@ -67,9 +68,6 @@
     }
 }
 @media (max-width:700px){
-    .hero-container{
-        top: 320px;
-    }
     .hero-container h1{
         font-size: 30px;
         margin-bottom: 0;
@@ -81,11 +79,15 @@
 }
 
 @media (width < 600px){
+    .hero-container{
+        bottom: 0;
+    }
     .background-container{
-        height: 70vh;
+        height: 60vh;
     }
     .slide img{
-        height: 70vh;
+        height: 60vh;
         /* opacity: 0.8; */
     }
+
 }
