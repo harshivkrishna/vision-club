@@ -1,6 +1,7 @@
 import React from 'react'
 import './hero.css'
 
+import logo from '../assets/logobg.jpg'
 import bg1 from '../assets/bg1.jpg'
 import bg2 from '../assets/bg2.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -21,6 +22,9 @@ const Hero = () => {
             autoplay={{ delay: 5000 }} 
             modules={[Autoplay]}
             className='' >
+                <SwiperSlide className='slide'>
+                    <img src={logo} alt="" />
+                </SwiperSlide>
                 <SwiperSlide className='slide'>
                     <img src={bg1} alt="" />
                 </SwiperSlide>

@@ -138,7 +138,7 @@
     }
 }
 
-@media (width <671px){
+@media (width <750px){
     .news-container{
         flex-direction: column;
         height: fit-content;
