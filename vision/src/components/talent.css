@@ -65,6 +65,7 @@
     font-weight: 400;
     border: none;
     outline: none;
+    margin-top: 40px;
 }
 
 .view-btn:hover{
