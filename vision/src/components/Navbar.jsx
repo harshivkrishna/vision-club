@@ -17,7 +17,7 @@ const NavBar = () => {
           className={showLinks ? 'ri-close-line menu-btn' : 'ri-menu-line menu-btn'}
           onClick={toggleNavLinks}
         ></i>
-        <ul className={`nav-links ${showLinks ? 'show' : ''}`}>
+        <ul className={`nav-links ${showLinks ? 'show' : ''}` } onClick={toggleNavLinks}>
           <li><Link to="/">Home</Link></li>
           <li><Link to="#">About</Link></li>
           <li><Link to="/submit">Submit</Link></li>
