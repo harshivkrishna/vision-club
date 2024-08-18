@@ -2,6 +2,7 @@ import React from 'react'
 import './talent.css'
 
 import talentImg from '../assets/news/fontpage1.png'
+
 const Talent = () => {
   return (
     <div className="talent">
