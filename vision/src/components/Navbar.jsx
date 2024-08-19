@@ -20,7 +20,7 @@ const NavBar = () => {
         ></i>
         <ul className={`nav-links ${showLinks ? 'show' : ''}` } onClick={toggleNavLinks}>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="#">About</Link></li>
+          <li><Link to="/about">About</Link></li>
           <li><Link to="/submit">Submit</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <button>Download</button>

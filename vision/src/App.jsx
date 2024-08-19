@@ -10,6 +10,7 @@ import Gallery from './components/Gallery'
 import Talent from './components/Talent'
 import Showtalent from './components/Showtalent'
 import Footer from './components/Footer'
+import Aboutpage from './components/Aboutpage'
 const App = () => {
   return (
     <div>
@@ -25,13 +26,14 @@ const App = () => {
                    <Talent></Talent>
                    <Showtalent></Showtalent>
                    <Gallery></Gallery>
-                   <Footer></Footer>
                 </>
               }>
               </Route>
               <Route path='/contact' element={<Contact></Contact>}></Route>
+              <Route path='/about' element={<Aboutpage></Aboutpage>}></Route>
               <Route path='/submit' element={<FormPage></FormPage>}></Route>
         </Routes>
+        <Footer></Footer>
       </Router>
     </div>
   )

@@ -1,0 +1,105 @@
+/* src/components/Aboutpage.css */
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+  
+  .about-header h1 {
+    font-size: 3rem;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .about-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .about-section:nth-child(even) .about-image {
+    order: 2; /* Moves the image to the right for even sections */
+  }
+  
+  .about-image {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    float: right;
+  }
+
+  .about-text-r{
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .about-text-r p{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+    float: right;
+  }
+
+  .about-image-left img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-items: left;
+    float: left ;
+  }
+  
+  .about-image-left{
+    flex: 1;
+    min-width: 300px;
+  }
+
+  .about-text {
+    flex: 2;
+    min-width: 300px;
+  }
+  
+  .about-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .about-header h1 {
+      font-size: 2.5rem;
+    }
+  
+    .about-section {
+      flex-direction: column;
+    }
+  
+    .about-image,
+    .about-text {
+      min-width: 100%;
+    }
+  
+    .about-section:nth-child(even) .about-image {
+      order: 1; /* Reset the order for mobile view */
+    }
+  
+    .about-text p {
+      font-size: 1rem;
+    }
+  }
+  
