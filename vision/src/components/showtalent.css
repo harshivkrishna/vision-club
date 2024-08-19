@@ -20,7 +20,7 @@
     color: gray;
 }
 
-@media (max-width: 600px ){
+@media (max-width: 600px){
     .show-container h1{
         font-size: 30px;
     }
