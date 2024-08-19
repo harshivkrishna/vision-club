@@ -3,6 +3,7 @@ import './news.css'
 
 import HeadNews from '../assets/news/fontpage1.png'
 import News1 from '../assets/news/news1.jpg'
+import {Link} from 'react-router-dom'
 
 const News = () => {
   return (
@@ -43,7 +44,7 @@ const News = () => {
               <p>News category | Author | Date</p>
             </div>
           </div>
-          <button className='view-more-btn'>View More</button>
+          <button className='view-more-btn'><Link to="/display">View More</Link></button>
         </div>
         </div>
     </div>

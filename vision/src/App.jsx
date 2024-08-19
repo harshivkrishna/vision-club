@@ -11,6 +11,7 @@ import Talent from './components/Talent'
 import Showtalent from './components/Showtalent'
 import Footer from './components/Footer'
 import Aboutpage from './components/Aboutpage'
+import Display from './components/Display'
 const App = () => {
   return (
     <div>
@@ -31,6 +32,7 @@ const App = () => {
               </Route>
               <Route path='/contact' element={<Contact></Contact>}></Route>
               <Route path='/about' element={<Aboutpage></Aboutpage>}></Route>
+              <Route path='/display' element={<Display></Display>}></Route>
               <Route path='/submit' element={<FormPage></FormPage>}></Route>
         </Routes>
         <Footer></Footer>
