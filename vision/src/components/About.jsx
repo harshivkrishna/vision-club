@@ -15,7 +15,6 @@ const About = () => {
                 <h2>Inspiring</h2>
                 <p>Explore thought-provoking features and profiles that showcase the best of our college community.</p>
             </div>
-
             <div className="about-card">
                 <h2>Interactive</h2>
                 <p>Engage with our newspaper through digital content, events, and opportunities to get involved.</p>
