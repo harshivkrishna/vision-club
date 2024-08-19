@@ -44,7 +44,7 @@ const News = () => {
               <p>News category | Author | Date</p>
             </div>
           </div>
-          <button className='view-more-btn'><Link to="/display">View More</Link></button>
+          <button className='view-more-btn'><Link to="/display" className='view-more-btn-link'>View More</Link></button>
         </div>
         </div>
     </div>

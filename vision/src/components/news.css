@@ -107,6 +107,10 @@
     outline: 0;
 }
 
+.view-more-btn-link{
+    color: black;
+}
+
 .view-more-btn:hover{
     background-color: rgb(188, 188, 188);
     font-weight: 500;
